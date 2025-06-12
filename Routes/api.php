@@ -16,3 +16,4 @@ Route::resource('store', 'StoreController');
 
 
 
+Route::resource('categories', 'CategoryController');
