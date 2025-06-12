@@ -14,3 +14,9 @@
 Route::prefix('store')->name('store')->group(function() {
     Route::get('/', 'StoreController@storePage');
 });
+
+Route::prefix('categories')->name('categories')->group(function() {
+    Route::get('/', function () {
+        return view('store::category');
+    });
+});

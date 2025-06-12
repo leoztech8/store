@@ -23,6 +23,7 @@ Vue.use(VueResource);
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default));
 
 Vue.component('store-component', require('./components/StoreComponent.vue').default);
+Vue.component('category-component', require('./components/CategoryComponent.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
